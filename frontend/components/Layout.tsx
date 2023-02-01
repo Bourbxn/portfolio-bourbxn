@@ -1,16 +1,18 @@
-import Navbar from "./Navbar"
+import Navbar from "./Navbar";
 
 type Props = {
-    children: JSX.Element;
-}
+  children: JSX.Element;
+};
 
-const Layout: React.FC<Props> = ({children}) => {
+const Layout: React.FC<Props> = ({ children }) => {
   return (
     <div>
-        <Navbar />
-        <div className="h-screen bg-[#03001C]">{children}</div>
+      <Navbar />
+      <div className=" h-screen scroll-smooth bg-green-500">
+        {children}
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Layout
+export default Layout;

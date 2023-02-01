@@ -1,10 +1,8 @@
-import Layout from '@/components/Layout'
-import React from 'react'
+import Layout from "@/components/Layout";
+import React from "react";
 
 const home = () => {
-  return (
-    <div className='text-white'>Home</div>
-  )
-}
+  return <div className="text-white">Home</div>;
+};
 
-export default home
+export default home;
