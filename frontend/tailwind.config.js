@@ -16,6 +16,21 @@ module.exports = {
         "loserpop-blue": "#5B8FB9",
         "light-mint": "#B6EADA",
       },
+      animation: {
+        topic: "topic 5s ease infinite",
+      },
+      keyframes: {
+        topic: {
+          "0%, 100%": {
+            "background-size": "200% 200%",
+            "background-position": "left center",
+          },
+          "50%": {
+            "background-size": "200% 200%",
+            "background-position": "right center",
+          },
+        },
+      },
     },
   },
   plugins: [],

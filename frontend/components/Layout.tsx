@@ -8,7 +8,7 @@ const Layout: React.FC<Props> = ({ children }) => {
   return (
     <div>
       <Navbar />
-      <div className="w-full h-screen scroll-smooth bg-indigo-600">
+      <div className="pt-24 w-screen h-screen scroll-smooth bg-dark-ocean">
         {children}
       </div>
     </div>
