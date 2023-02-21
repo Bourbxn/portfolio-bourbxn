@@ -3,12 +3,12 @@ import { AiFillLinkedin } from "@react-icons/all-files/ai/AiFillLinkedin";
 
 const home = () => {
   return (
-    <div className="flex justify-center items-center h-full p-8">
+    <div className="flex justify-center items-center h-[85vh] p-8">
       <div>
         <h1 className="text-white md:text-[6rem] text-[3.5rem] font-bold animate-topic bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent">
           JAKKAPAT P.
         </h1>
-        <h2 className="text-gray-500 md:text-[1.5rem] text-[1rem] flex justify-center items-center">
+        <h2 className="text-gray-400 md:text-[1.5rem] text-[1rem] flex justify-center items-center">
           I'm a passionate full-stack developer
         </h2>
         <div className="flex md:flex-row flex-col space-y-6 md:space-y-0 justify-center items-center md:space-x-8 pt-12">
