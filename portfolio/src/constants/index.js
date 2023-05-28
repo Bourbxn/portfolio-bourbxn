@@ -1,7 +1,5 @@
 import {
   mobile,
-  backend,
-  creator,
   web,
   javascript,
   typescript,
@@ -25,10 +23,6 @@ import {
   cebux,
   covidcheckpoint,
   freakingvirus,
-  clang,
-  cpp,
-  cs,
-  java,
 } from "../assets";
 
 export const navLinks = [

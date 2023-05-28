@@ -43,8 +43,7 @@ const Navbar = () => {
           }}
         >
           <p className="text-white text-[18px] font-bold cursor-pointer flex ">
-            Jakkapat P. &nbsp;
-            <span className="sm:block hidden"> | Fullstack Developer</span>
+            Jakkapat P.
           </p>
         </Link>
 
