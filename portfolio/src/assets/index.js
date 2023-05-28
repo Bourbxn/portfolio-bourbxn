@@ -21,8 +21,20 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import next from "./tech/next.png";
 import dotnet from "./tech/dotnet.png";
+import clang from "./tech/c.svg";
+import cpp from "./tech/cpp.svg";
+import cs from "./tech/cs.svg";
+import java from "./tech/java.svg";
 
 import farkt from "./farkt.png";
+import mernblog from "./mern_blog.png";
+import cursegnrt from "./cursegnrt.png";
+import bourbxnnvim from "./bourbxnnvim.png";
+import petrolpredict from "./petrolpredict.png";
+import binquiz from "./binquiz.png";
+import cebux from "./cebux.jpeg";
+import covidcheckpoint from "./covidcheckpoint.png";
+import freakingvirus from "./freakingvirus.png";
 
 export {
   backend,
@@ -48,4 +60,16 @@ export {
   next,
   dotnet,
   farkt,
+  mernblog,
+  cursegnrt,
+  bourbxnnvim,
+  petrolpredict,
+  binquiz,
+  cebux,
+  covidcheckpoint,
+  freakingvirus,
+  clang,
+  cpp,
+  cs,
+  java,
 };
